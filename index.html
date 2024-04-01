@@ -12,40 +12,53 @@
     <h1>Shweta Chowdhary</h1>
     <h1>Roll no.: 2002641</h1>
     <h1>College: Chandigarh Engineering College, Landran</h1>
-    <h1>Github id:<a href="https://github.com/03shweta" target ="main">03shweta</a></h1>
+    <h1>Github id:<a href="https://github.com/03shweta" target ="main">Github</a></h1>
 </div>
-    <div class="Card">
-    <div class="flipcard">
+<div class="Card">
+    <div id ="card" onmouseenter="play()" onmouseleave="pause()">
+        <div class="flipcard">
         <div class="flipcard-inner">
-            <div class="flipcard-front">
-                
+            <div class="flipcard-front">  
             </div>
             <div class="flipcard-back">
             </div>
         </div>
+    </div>
     </div>
 
-    <div class="flipcard">
+    <div id ="card" onmouseenter="play()" onmouseleave="pause()">
+        <div class="flipcard">
         <div class="flipcard-inner">
-            <div class="flipcard-front">
-                
+            <div class="flipcard-front">  
             </div>
             <div class="flipcard-back">
             </div>
         </div>
+    </div>
     </div>
 
-    <div class="flipcard">
+    <div id ="card" onmouseenter="play()" onmouseleave="pause()">
+        <div class="flipcard">
         <div class="flipcard-inner">
-            <div class="flipcard-front">
-                
+            <div class="flipcard-front">   
             </div>
             <div class="flipcard-back">
             </div>
         </div>
     </div>
-   </div>
+    </div>
+  </div>
 </div>
+
+<script>
+    const audio= new Audio('Audio.mp3')
+    function play(){
+        audio.play()
+    }
+    function pause(){
+        audio.pause()
+    }
+</script>
 
 </body>
 </html>
